@@ -15,6 +15,7 @@ const fs = require("fs");
 //   }
 // });
 
-fs.appendFileSync("./test.txt", "hey hammad\n");
-fs.cpSync("./test.txt", "./copy.txt");
-fs.unlink("test.txt"); // for deleting a file
+// fs.appendFileSync("./test.txt", "hey hammad\n");
+// fs.cpSync("./test.txt", "./copy.txt");
+// fs.unlinkSync("test.txt"); // for deleting a file
+fs.mkdirSync("docs-a/a/b/c", { recursive: true });
