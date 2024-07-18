@@ -17,3 +17,4 @@ const fs = require("fs");
 
 fs.appendFileSync("./test.txt", "hey hammad\n");
 fs.cpSync("./test.txt", "./copy.txt");
+fs.unlink("test.txt"); // for deleting a file
